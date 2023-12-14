@@ -2,7 +2,7 @@
 title: Getting Started3
 author: cotes
 date: 2019-08-10 20:55:00 +0800
-categories: [new, Tutorial]
+categories: [new, Test]
 tags: [getting started]
 pin: true
 img_path: '/posts/20180809'
