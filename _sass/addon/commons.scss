@@ -686,11 +686,11 @@ $btn-mb: 0.5rem;
   position: fixed;
   top: 0;
   left: 0;
-  height: 200%;
+  height: 100%;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: url('/assets/img/background/background_paris_s.jpg');
+  background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -751,13 +751,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: rgba(254, 254, 254, 0.99);
+      color: var(--site-title-color);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: rgba(254, 254, 254, 0.99);
+    color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
