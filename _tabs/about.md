@@ -5,9 +5,6 @@ order: 4
 ---
 
 # Hello, I'm Jeonghun Hong 👋
-## 🚀 About Me
-* * *
-
 
 ## 🎓 Education
 * * *
@@ -24,17 +21,15 @@ order: 4
   - Image Captioning
   - 3D Scene Graph Generation
   - Generation Model
-- NLP
-  - LLM
 
 ## 📚 Publications
 * * *
-- **Jeong-hun Hong**, Dong-hun Lee, Han-gyul Baek, Byungjun Bae, Sang-hyo Park, "Image captioning network for disaster dataset based on transfer learning and disaster convolution block", in The Journal of Korean Institute of Communicatrions and Information Sciences (KICS), 2023. -Publication approved  
+- **Jeong-hun Hong**, Dong-hun Lee, Han-gyul Baek, Byungjun Bae, Sang-hyo Park, "Image captioning network for disaster dataset based on transfer learning and disaster convolution block", in The Journal of Korean Institute of Communicatrions and Information Sciences (KICS), 2023 
 
 ## 🛠 Skills
 * * *
 - Programming Languages: Python, C
-- Tools/Frameworks: Pytorch, Tensorflow
+- Tools/Frameworks: Pytorch
 
 ## 📫 How to reach me
 * * *
