@@ -28,8 +28,8 @@ url: "https://invhun.github.io"
 github:
   username: invhun # change to your github username
 
-# twitter:
-#   username: twitter_username # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -73,7 +73,8 @@ theme_mode: # [light|dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile/profile_96_96.jpg"
+# avatar: "/assets/img/profile/profile_96_96.jpg"
+avatar: "/commons/avatar.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
