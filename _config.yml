@@ -16,8 +16,7 @@ timezone: Asia/Shanghai
 
 title: invhun # the main title
 
-tagline: 논문, 코드리뷰 등 
-학습 기록 블로그입니다 # it will display as the sub-title
+tagline: 논문, 코드리뷰 등 학습 기록 블로그입니다 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog
