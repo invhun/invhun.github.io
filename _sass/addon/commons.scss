@@ -684,9 +684,9 @@ $btn-mb: 0.5rem;
   @include pl-pr(0);
 
   position: fixed;
-  top: 100;
+  top: 0;
   left: 0;
-  height: 100%;
+  height: 200%;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
@@ -751,13 +751,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: rgba(254, 254, 254, 99%);
+      color: var(--site-title-color);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: rgba(254, 254, 254, 99%);
+    color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
