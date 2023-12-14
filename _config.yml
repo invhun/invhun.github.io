@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: invhun # the main title
 
-tagline: 논문, 코드리뷰 등 학습 기록 블로그입니다 # it will display as the sub-title
+tagline: 논문, 코드리뷰 등 \n학습 기록 블로그입니다 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog
@@ -38,7 +38,7 @@ social:
   email: invhun@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
+    - https://twitter.com/username # change to your twitter homepage
     - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile/profile_96X96.jpg"
+avatar: "/assets/img/profile/profile_96_96.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
