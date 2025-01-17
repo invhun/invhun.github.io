@@ -16,13 +16,6 @@ pin: true
 > MEGVII Technology, Waseda University, Tsinghua University   
 > [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Decoupled_Knowledge_Distillation_CVPR_2022_paper.pdf)] [[github](https://github.com/megvii-research/mdistiller)]
 
-$$ P_1 $$
-abc $$ P_1 $$ abc
-\$$ P_1 $$
-
-$x+y=1$
-\\[x=y=1\\]
-
 # Abstract
 
 최근 KD방식은 중간 레이어에서 깊은 피처 증류에 중점을 두며, 로직 증류의 중요성이 간과됨
@@ -94,7 +87,7 @@ CIFAR-100, ImageNet, MS-COCO에서 우수한 결과를 보임
 
 ![image.png](https://1drv.ms/i/s!AvuRV8CuQlavgQQjGZNXvsLtZvHR?embed=1&width=459&height=92)
 
-- 정답 레이블인 target class와 관련성으로 분리하면, 아래와 같이 분리됨. 이때 $\bold{b} = [p_t, p_{\backslash t}]$, $p_t$는 타겟 클래스의 확률, $p_{\backslash t}$는 타겟 클래스를 제외한 확률의 합으로 softmax 특성 상 $p_{\backslash t}=1-p_t$가 성립됨
+- 정답 레이블인 target class와 관련성으로 분리하면, 아래와 같이 분리됨. 이때 $\boldsymbol{b} = [p_t, p_{\backslash t}]$, $p_t$는 타겟 클래스의 확률, $p_{\backslash t}$는 타겟 클래스를 제외한 확률의 합으로 softmax 특성 상 $p_{\backslash t}=1-p_t$가 성립됨
     
     ![fo1-1.PNG](https://1drv.ms/i/s!AvuRV8CuQlavfr2Uyzy6VP6YXiw?embed=1&width=545&height=109)
     
