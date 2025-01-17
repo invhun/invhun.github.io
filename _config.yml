@@ -120,16 +120,23 @@ baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: highlight
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# kramdown:
+#   syntax_highlighter: rouge
+#   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+#     css_class: highlight
+#     # default_lang: console
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: true
+#       start_line: 1
 
 collections:
   tabs:
