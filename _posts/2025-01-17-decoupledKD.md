@@ -15,6 +15,9 @@ pin: true
 > MEGVII Technology, Waseda University, Tsinghua University   
 > [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Decoupled_Knowledge_Distillation_CVPR_2022_paper.pdf)] [[github](https://github.com/megvii-research/mdistiller)]
 
+$$ P_1 $$
+abc $$ P_1 $$ abc
+\$$ P_1 $$
 
 # Abstract
 
