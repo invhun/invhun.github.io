@@ -2,7 +2,7 @@
 title: "[Paper Review] Decoupled Knowledge Distillation"
 author: invhun
 date: 2025-01-17 01:30:00 +0800
-last_modified_at: 2025-01-17 02:00:00 +0800
+last_modified_at: 2025-01-17 14:00:00 +0800
 categories: [Paper Review, Knowledge Distillation]
 tags: [Knowledge Distillation]
 pin: true
