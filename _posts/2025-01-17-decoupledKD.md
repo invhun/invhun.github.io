@@ -2,11 +2,11 @@
 title: "[Paper Review] Decoupled Knowledge Distillation"
 author: invhun
 date: 2025-01-17 01:30:00 +0800
-last_modified_at: 2025-01-17 14:00:00 +0800
-categories: [Paper Review, Knowledge Distillation]
-tags: [Knowledge Distillation]
+last_modified_at: 2025-01-18 16:09:00 +0800
+categories: [Paper Review, Fundamental Knowledge Distillation]
+tags: [KD]
 use_math: true
-pin: true
+pin: false
 ---
 
 
@@ -212,7 +212,7 @@ NCKD의 영향이 중요하지만, TCKD도 필수적
 
 ![Screenshot 2025-01-17 at 12.09.25 AM.png](https://1drv.ms/i/s!AvuRV8CuQlavf2HF2FgVJWndMR0?embed=1&width=1138&height=996)
 
-- 그림3: TSNE결과 DKD의 representation이 KD보다 더 분리 가능함을 보여줌
+- 그림3: TSNE결과 DKD의 representation이 KD보다 더 분리 가능함을 보여줌 (큰 차이로 와닿지는 않음)
 - 그림4: 학생과 교사 로직의 상관 행렬 차이를 시각화 한 것으로, DKD는 학생이 교사와 더 유사한 로직을 출력하도록 도와줌
 
 # 5. Discussion and Conclusion
@@ -224,3 +224,8 @@ NCKD의 영향이 중요하지만, TCKD도 필수적
 
 - object detection에서는 피처 기반 방법인 reviewKD보다 낮은 성능을 기록
 - 증류 성능과 $\beta$와의 상관관계는 완전히 조사되지 않았음
+
+# Review
+- softmax의 온도 변수를 변경하더라도, teacher의 정답 클래스 예측 확률이 높을수록 다른 클래스들간 정보(특정 샘플에 대한 클래스들 간 확률 차이), 즉 "Dark Knowlege"가 간과된다는 것은 직관적으로 알 수 있음. 이러한 "Dark Knowlege"가 중요하다면, 이 지식의 가중치를 더 줘서 전이하는 방향은 매우 적합한 방향임.
+- 이 연구는 이러한 직관을 수식적으로 해석하고, 실험으로 영향을 증명하였고, 간단하지만 설득력이 있는 방향으로 조정된 KD 방식인 DKD를 제안하였음.
+- 다양한 분야에서 KD를 적용하고 있는 현재, 지금하고 있는 Task에서 어떤 지식이 중요한지 분석이 중요하다는 것을 알려줌과 동시에, 좋은 연구는 어떻게 시작하고 진행해야 할지에 대한 인사이트를 주는 훌륭한 논문이라고 생각됨.
