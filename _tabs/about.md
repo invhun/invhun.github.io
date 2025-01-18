@@ -28,11 +28,12 @@ order: 4
 
 ## 📚 Publications
 * * *
-- **Semin Myeong**, Dabin Kang, Chae-yeong Song, <U>Jeong-hun Hong</U>, Sang-hyp Park, "A study on the Use of a Text-to-image Generative Model to Generate Consistent Story Illustrations", JOURNAL OF BROADCAST ENGINEERING, 29(6), 1043-1055, 2024
-- **Dong-hun Lee**, <U>Jeong-hun Hong</U>, Hui-yan Yu, Dabin Kang, Sang-hyo Park, "Exploring the interactivity of the MPEG SD data format with academic dataset", 한국방송미디어공학회 학술발표대회 논문집, 제주, 2024
-- **Semin Myeong**, Dabin Kang, Chae-yeong Song, <U>Jeong-hun Hong</U>, Sang-hyo Park, "A Study on Coherent Image Generation Reflecting Story Genres Using Text-based Image Generation Models", 한국방송미디어공학회 학술발표대회 논문집, 제주, 2024
-- <U><strong>Jeong-hun Hong</strong></U>, Dong-hun Lee, Han-gyul Baek, Byungjun Bae, Sang-hyo Park, "Image captioning network for disaster dataset based on transfer learning and disaster convolution block", in The Journal of Korean Institute of Communicatrions and Information Sciences (KICS), 2023 
+- **Semin Myeong**, Dabin Kang, Chae-yeong Song, *Jeong-hun Hong*, Sang-hyp Park, "A study on the Use of a Text-to-image Generative Model to Generate Consistent Story Illustrations", JOURNAL OF BROADCAST ENGINEERING, 29(6), 1043-1055, 2024
+- **Dong-hun Lee**, *Jeong-hun Hong*, Hui-yan Yu, Dabin Kang, Sang-hyo Park, "Exploring the interactivity of the MPEG SD data format with academic dataset", 한국방송미디어공학회 학술발표대회 논문집, 제주, 2024
+- **Semin Myeong**, Dabin Kang, Chae-yeong Song, *Jeong-hun Hong*, Sang-hyo Park, "A Study on Coherent Image Generation Reflecting Story Genres Using Text-based Image Generation Models", 한국방송미디어공학회 학술발표대회 논문집, 제주, 2024
+- ***Jeong-hun Hong***, Dong-hun Lee, Han-gyul Baek, Byungjun Bae, Sang-hyo Park, "Image captioning network for disaster dataset based on transfer learning and disaster convolution block", in The Journal of Korean Institute of Communicatrions and Information Sciences (KICS), 2023 
 
+**First Author**
 
 ## 🛠 Skills
 * * *
