@@ -11,7 +11,7 @@ pin: false
 
 > Are Diffusion Models Vision-And-Language Reasoners?  
 > Neurips 2023   
-> Benno Krojer, Elinor Poole-Dayan, Vikram Voleti, Christopher Pal, Siva Reddy   
+> **Benno Krojer**, Elinor Poole-Dayan, Vikram Voleti, Christopher Pal, Siva Reddy   
 > Mila University, McGill University, Polytechnique Montréal, Stability AI, ServiceNow Research, CIFAR AI   
 > [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/1a675d804f50509b8e21d0d3ca709d03-Paper-Conference.pdf)] [[github](https://github.com/McGill-NLP/diffusion-itm)]
 
