@@ -4,7 +4,7 @@ author: invhun
 date: 2025-01-13 15:00:00 +0800
 last_modified_at: 2025-01-18 18:29:00 +0800
 categories: [Paper Review, Multimodal Learning]
-tags: [Diffusion, Multimodal, Representation Learning, Text-Image, Retrieval, Text-Image Retrieval]
+tags: [Diffusion-based, Multimodal Learning, Representation Learning, Text-Image, Retrieval, Text-Image Retrieval]
 use_math: true
 pin: false
 ---
