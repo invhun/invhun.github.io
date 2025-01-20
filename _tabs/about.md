@@ -38,7 +38,7 @@ order: 4
 ## 🛠 Skills
 * * *
 - Programming Languages: Python
-- Tools/Frameworks: Pytorch
+- Tools/Frameworks: PyTorch
 
 ## 📫 How to reach me
 * * *
