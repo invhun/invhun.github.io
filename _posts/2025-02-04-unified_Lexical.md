@@ -83,7 +83,8 @@ pin: false
 #### Realization
 
 ![fo2.PNG](https://1drv.ms/i/c/af5642aec05791fb/IQT5tUr9gIcaTbIf_EWEVeSRAbngVRKSbF4o1z_DuX3h-S4?width=1024)
-Llama2를 텍스트 인코더로 활용
+
+- Llama2를 텍스트 인코더로 활용
 
 ### 3.2.2. Lexical visual encoder
 
