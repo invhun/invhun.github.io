@@ -8,6 +8,7 @@ tags: [Diffusion-based, Multimodal Learning, Representation Learning, Text-Image
 use_math: true
 pin: false
 lang: en
+permalink: /posts/2025/diff-reasoner
 ---
 
 > Are Diffusion Models Vision-And-Language Reasoners?  

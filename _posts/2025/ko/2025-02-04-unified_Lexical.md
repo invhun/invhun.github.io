@@ -8,6 +8,7 @@ tags: [Text-Image, Text-Image Retrieval, Multimodal Learning, DINOv2, Overcoming
 use_math: true
 pin: false
 lang: ko
+permalink: /posts/2025/unified-lexical
 ---
 
 > Unified Lexical Representation for Interpretable Visual-Language Alignment  

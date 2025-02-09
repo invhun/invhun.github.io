@@ -8,6 +8,7 @@ tags: [KD]
 use_math: true
 pin: false
 lang: ko
+permalink: /posts/2025/decoupledKD
 ---
 
 
