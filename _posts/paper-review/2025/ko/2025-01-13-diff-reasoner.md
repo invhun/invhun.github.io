@@ -1,5 +1,5 @@
 ---
-title: "[논문리뷰] Are Diffusion Models Vision-And-Language Reasoners?"
+title: "[논문 리뷰] Are Diffusion Models Vision-And-Language Reasoners?"
 author: invhun
 date: 2025-01-13 15:00:00 +0900
 last_modified_at: 2025-01-18 18:29:00 +0900
@@ -8,7 +8,6 @@ tags: [Diffusion-based, Multimodal Learning, Representation Learning, Text-Image
 use_math: true
 pin: false
 lang: ko
-permalink: /posts/2025/ko/diff-reasoner
 ---
 
 > Are Diffusion Models Vision-And-Language Reasoners?  

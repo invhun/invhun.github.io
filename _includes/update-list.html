@@ -5,7 +5,7 @@
 {% assign all_list = '' | split: '' %}
 
 {% for post in site.posts %}
-  {% if post.last_modified_at and post.last_modified_at != post.date %}
+  {% if post.lang == lang and post.last_modified_at and post.last_modified_at != post.date %}
     {% capture elem %}
       {{- post.last_modified_at | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
     {% endcapture %}
@@ -23,7 +23,7 @@
 
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
-    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
+    <h2 class="panel-heading">{{ site.data.locales[lang].panel.lastmod }}</h2>  <!-- 언어에 따라 패널 제목 표시 -->
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: '::' | last | plus: 0 %}

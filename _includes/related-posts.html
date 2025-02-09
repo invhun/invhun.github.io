@@ -3,7 +3,7 @@
 <!-- The total size of related posts -->
 {% assign TOTAL_SIZE = 3 %}
 
-<!-- An random integer that bigger than 0 -->
+<!-- A random integer that is bigger than 0 -->
 {% assign TAG_SCORE = 1 %}
 
 <!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
@@ -27,7 +27,7 @@
 {% for i in (0..last_index) %}
   {% assign post = match_posts[i] %}
 
-  {% if post.url == page.url %}
+  {% if post.url == page.url or post.lang != page.lang %} <!-- 언어 조건 추가 -->
     {% continue %}
   {% endif %}
 

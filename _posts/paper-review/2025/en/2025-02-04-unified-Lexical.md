@@ -8,13 +8,12 @@ tags: [Text-Image, Text-Image Retrieval, Multimodal Learning, DINOv2, Overcoming
 use_math: true
 pin: false
 lang: en
-permalink: /posts/2025/unified-lexical
 ---
 
 > Unified Lexical Representation for Interpretable Visual-Language Alignment  
 > NeurIPS 2024 Poster   
 > **Yifan Li**, Yikai Wang, Yanwei Fu, Dongyu Ru, Zheng Zhang, Tong He    
-> Fudan University, Amazon Web Services
+> Fudan University, Amazon Web Services    
 > [[paper](https://arxiv.org/pdf/2407.17827)] [[Project page](https://clementine24.github.io/LexVLA/)] [[github](https://github.com/Clementine24/LexVLA)]
 
 # 1. Abstract & Introduction

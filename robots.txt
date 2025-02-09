@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://invhun.github.io/sitemap.xml

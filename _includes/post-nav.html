@@ -4,13 +4,44 @@
   {% assign previous = site.data.locales[include.lang].post.button.previous %}
   {% assign next = site.data.locales[include.lang].post.button.next %}
 
-  {% if page.previous.url %}
-    <a
-      href="{{ site.baseurl }}{{ page.previous.url }}"
-      class="btn btn-outline-primary"
-      aria-label="{{ previous }}"
-    >
-      <p>{{ page.previous.title }}</p>
+  {% assign related_posts = '' | split: '' %}
+
+  <!-- 같은 언어의 포스트 필터링 -->
+  {% for post in site.posts %}
+    {% if post.lang == page.lang %}
+      {% assign related_posts = related_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- 날짜 기준으로 정렬 -->
+  {% assign sorted_posts = related_posts | sort: 'date' %}
+  
+  {% assign current_index = nil %}
+  {% for post in sorted_posts %}
+    {% if post.title == page.title %}
+      {% assign current_index = forloop.index0 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign previous_post = nil %}
+  {% assign next_post = nil %}
+  
+  <!-- 이전 포스트 인덱스 할당 -->
+  {% assign previous_index = current_index | minus: 1 %}
+  {% if previous_index >= 0 %}
+    {% assign previous_post = sorted_posts[previous_index] %}
+  {% endif %}
+  
+  <!-- 다음 포스트 인덱스 할당 -->
+  {% assign next_index = current_index | plus: 1 %}
+  {% if next_index < sorted_posts.size %}
+    {% assign next_post = sorted_posts[next_index] %}
+  {% endif %}
+
+  {% if previous_post %}
+    <a href="{{ site.baseurl }}{{ previous_post.url }}" class="btn btn-outline-primary" aria-label="{{ previous }}">
+      <p>{{ previous_post.title }}</p>
     </a>
   {% else %}
     <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
@@ -18,13 +49,9 @@
     </div>
   {% endif %}
 
-  {% if page.next.url %}
-    <a
-      href="{{ site.baseurl }}{{page.next.url}}"
-      class="btn btn-outline-primary"
-      aria-label="{{ next }}"
-    >
-      <p>{{ page.next.title }}</p>
+  {% if next_post %}
+    <a href="{{ site.baseurl }}{{ next_post.url }}" class="btn btn-outline-primary" aria-label="{{ next }}">
+      <p>{{ next_post.title }}</p>
     </a>
   {% else %}
     <div class="btn btn-outline-primary disabled" aria-label="{{ next }}">

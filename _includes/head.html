@@ -1,6 +1,8 @@
 <!-- The Head -->
 
 <head>
+  {% I18n_Headers %}
+  
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
@@ -13,7 +15,7 @@
 
   {% if page.use_math %}
     {% include mathjax_support.html %}
-  {% endif %}  
+  {% endif %}
   
   {% capture seo_tags %}
     {% seo title=false %}

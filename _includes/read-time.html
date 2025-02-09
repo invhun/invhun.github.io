@@ -18,11 +18,17 @@
 {% endcapture %}
 
 <!-- return element -->
-<span
+<!-- <span
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
   title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
+> -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="{{ words }}{% if site.active_lang != 'ko' %}{{ ' ' }}{% endif %}{{ site.data.locales[include.lang].post.words }}""
 >
   <em>
     {{- read_time -}}

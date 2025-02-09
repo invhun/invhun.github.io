@@ -1,5 +1,4 @@
 <!-- The Top Bar -->
-
 <header id="topbar-wrapper" aria-label="Top Bar">
   <div
     id="topbar"
@@ -11,7 +10,6 @@
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
         <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
-
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}
@@ -20,14 +18,12 @@
                 {{ site.data.locales[include.lang].tabs.home | capitalize }}
               </a>
             </span>
-
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
-
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | relative_url }}">
@@ -58,6 +54,28 @@
     <button type="button" id="search-trigger" class="btn btn-link">
       <i class="fas fa-search fa-fw"></i>
     </button>
+
+    <div class="lang-switcher ms-3">
+      {% for lang in site.languages %}
+        <div class="lang" style="display: inline;">
+          <a style="
+            {% if lang == site.active_lang %}
+              font-weight: bold;
+            {% endif %}"
+            href="
+            {% if lang == site.default_lang %}
+              {{ site.baseurl }}{{ page.url }}
+            {% else %}
+              {{ site.baseurl }}/{{ lang }}{{ page.url }}
+            {% endif %}">
+            {{ lang }}
+          </a>
+          {% if forloop.last == false %}
+            <span class="lang-border"> </span>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
 
     <search class="align-items-center ms-3 ms-lg-0">
       <i class="fas fa-search fa-fw"></i>
