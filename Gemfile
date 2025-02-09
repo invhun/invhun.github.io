@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 group :jekyll_plugins do
-  gem 'jekyll-polyglot', git: 'https://github.com/<your-github-username>/jekyll-polyglot', branch: 'master'
+  gem 'jekyll-polyglot', git: 'https://github.com/invhun/jekyll-polyglot', branch: 'master'
 end
 
 group :test do
