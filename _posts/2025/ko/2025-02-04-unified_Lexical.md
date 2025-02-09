@@ -7,6 +7,7 @@ categories: [Paper Review, Multimodal Learning]
 tags: [Text-Image, Text-Image Retrieval, Multimodal Learning, DINOv2, Overcoming CLIP Limitations, Zero-shot Retrieval, Lexical Representation, Representation Learning]
 use_math: true
 pin: false
+lang: ko
 ---
 
 > Unified Lexical Representation for Interpretable Visual-Language Alignment  

@@ -7,6 +7,7 @@ categories: [Paper Review, Multimodal Learning]
 tags: [Diffusion-based, Multimodal Learning, Representation Learning, Text-Image, Retrieval, Text-Image Retrieval]
 use_math: true
 pin: false
+lang: en
 ---
 
 > Are Diffusion Models Vision-And-Language Reasoners?  
