@@ -34,8 +34,6 @@ markdown: kramdown  # Markdown 렌더링 설정 추가
 - *Semin Myeong*, Dabin Kang, Chae-yeong Song, **Jeong-hun Hong**, Sang-hyo Park, "A Study on Coherent Image Generation Reflecting Story Genres Using Text-based Image Generation Models", 한국방송미디어공학회 학술발표대회 논문집, 제주, 2024
 - ***Jeong-hun Hong***, Dong-hun Lee, Han-gyul Baek, Byungjun Bae, Sang-hyo Park, "Image captioning network for disaster dataset based on transfer learning and disaster convolution block", in The Journal of Korean Institute of Communications and Information Sciences (KICS), 2023 
 
-**First Author**
-
 ## 📫 연락처
 * * *
 - Email: invhun@gmail.com
